@@ -19,7 +19,7 @@ source.main = main.py
 source.include_exts = py,png,jpg,kv,atlas
 
 # (str) Application versioning (method 1)
-version = 0.2
+version = 0.3
 
 # (list) Application requirements
 requirements = python3,kivy,plyer
