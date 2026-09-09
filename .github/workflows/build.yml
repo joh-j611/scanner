@@ -55,7 +55,7 @@ jobs:
       - name: Install Buildozer
         run: |
           pip install --upgrade pip
-          pip install cython==0.29.33 buildozer==1.5.0
+          pip install cython==0.29.33 buildozer==1.5.0 virtualenv setuptools
 
       - name: Accept Android SDK licenses
         run: |
