@@ -19,7 +19,7 @@ source.main = main.py
 source.include_exts = py,png,jpg,kv,atlas
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 0.2
 
 # (list) Application requirements
 requirements = python3,kivy,plyer
@@ -64,3 +64,5 @@ log_level = 2
 
 # (int) Display warning if buildozer is run as root
 warn_on_root = 1
+# (str) python-for-android branch to use, defaults to master
+p4a.branch = master
